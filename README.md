@@ -6,7 +6,7 @@
 
 直接开启SK5代理：```export all_proxy="socks5://用户名:密码@地址:端口"```
 
-直接开启http代理：```export all_proxy="http://用户名:密码@地址:端口"```
+或者开启http代理：```export all_proxy="http://用户名:密码@地址:端口"```
 
 此时输入```curl ip.sb```查看本机IP判断是否配置成功
 
