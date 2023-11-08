@@ -19,7 +19,7 @@
 ```
 
 
-使用以下命令启动Shadowsocks客户端：
+使用以下命令启动shadowsocks-libev客户端：
 
 ```ss-local -c 节点文件路径 > /dev/null 2>&1 &```
 
@@ -46,5 +46,5 @@
 
 就是把这台服务器当节点用，需要把第一行```server```配置改为```"server":"0.0.0.0",```              #  允许所有IP连接
 
-为什么用Shadowsocks呢？因为apt yum pip包管理器里都内置了这些，直接安装，不用下载。
+为什么用SS呢？因为apt yum pip包管理器里都内置了这些，直接安装，不用下载。
 
