@@ -19,7 +19,7 @@
 
 使用以下命令启动Shadowsocks客户端：
 
-```ss-local -c 节点文件路径```
+```ss-local -c 节点文件路径 > /dev/null 2>&1 &```
 
 然后就可以开启代理了：
 
