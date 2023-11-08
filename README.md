@@ -37,7 +37,9 @@
 
 此方法关闭终端重新连接后会自动关闭代理，重启开启代理即可
 
--
-PS：文件格式转换命令```mv config.txt config.json```
+- ###  PS
 
+文件格式转换命令```mv config.txt config.json```
+
+你也可以通过编辑```/etc/shadowsocks-libev/config.json```文件来配置SS服务端，就是把这台服务器当节点用。
 
