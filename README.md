@@ -7,14 +7,15 @@
 ```sudo yum install shadowsocks-libev```    #  CentOS
 
 创建一个名为```config.json```的文件，来指定SS节点的相关信息。建议使用aes-256-gcm或aes-128-gcm等加密算法，将以下示例配置添加到文件中：
-
+```
 {
   "server": "节点地址",
   "server_port": 端口,
   "local_port": 1080,
   "password": "密码",
   "method": "加密算法"
-} 
+}
+```
 
 使用以下命令启动Shadowsocks客户端：
 
