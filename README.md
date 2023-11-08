@@ -32,14 +32,16 @@
 
 ```export all_proxy="socks5://127.0.0.1:1080"```
 
-也可以使用代理下载文件：
-
-```curl --socks5 127.0.0.1:1080 http://www.example.com```
 
 
 此时输入```curl ip.sb```查看本机IP判断是否配置成功
 
 关闭终端重新连接后会自动关闭代理，重新开启SK5代理即可
+
+
+也可以只用代理下载文件：
+
+```curl --socks5 127.0.0.1:1080 http://www.example.com```
 
 
 #  PS
