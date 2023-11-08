@@ -18,6 +18,22 @@
 }
 ```
 
+机场节点格式：
+
+```
+{
+   "server": "节点地址",
+   "server_port": 端口,
+   "local_port": 1080,
+   "password": "密码",
+   "method": "加密算法",
+   "protocol": "传输协议",
+   "obfs": "伪装类型",
+   "obfs_param": "伪装参数",
+   "obfs_host": "伪装域名"
+}
+```
+
 
 使用以下命令启动shadowsocks-libev客户端：
 
