@@ -2,9 +2,9 @@
 
 安装shadowsocks-libev：
 
-```sudo apt install shadowsocks-libev```    #  Debian/Ubuntu
+```sudo apt install shadowsocks-libev```  &nbsp;&nbsp;&nbsp;&nbsp;  #  Debian/Ubuntu
 
-```sudo yum install shadowsocks-libev```    #  CentOS
+```sudo yum install shadowsocks-libev```  &nbsp;&nbsp;&nbsp;&nbsp;  #  CentOS
 
 
 创建一个名为```config.json```的文件配置SS节点的相关信息，建议使用aes-256-gcm或aes-128-gcm等加密算法，将以下配置添加到文件中：
@@ -44,7 +44,7 @@
 
 你也可以通过编辑```/etc/shadowsocks-libev/config.json```文件来配置SS服务端:
 
-就是把这台服务器当节点用，需要把第一行```server```配置改为```"server":"0.0.0.0",``` &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#  允许所有IP连接
+就是把这台服务器当节点用，需要把第一行```server```配置改为```"server":"0.0.0.0",``` &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#  允许所有IP连接
 
 为什么用SS呢？因为apt yum pip包管理器里都内置了这些，直接安装，不用下载。
 
