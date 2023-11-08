@@ -1,5 +1,17 @@
-###  国内VPS使用代理的方法，适用于无法拉取github项目
+#  国内VPS使用代理的方法，适用于无法拉取github项目
 
+###  方法一：
+
+首先你需要有一个可以直连的代理，建议用外国服务器安装xui面板自建
+
+直接开启SK5代理：```export all_proxy="socks5://用户名:密码@地址:端口"```
+
+直接开启http代理：```export all_proxy="http://用户名:密码@地址:端口"```
+
+此时输入```curl ip.sb```查看本机IP判断是否配置成功
+
+
+###  方法二：
 安装shadowsocks-libev：
 
 ```sudo apt install shadowsocks-libev```  &nbsp;&nbsp;&nbsp;&nbsp;  #  Debian/Ubuntu
@@ -15,22 +27,6 @@
   "local_port": 1080,
   "password": "密码",
   "method": "加密算法"
-}
-```
-
-机场节点格式：
-
-```
-{
-   "server": "节点地址",
-   "server_port": 端口,
-   "local_port": 1080,
-   "password": "密码",
-   "method": "加密算法",
-   "protocol": "传输协议",
-   "obfs": "伪装类型",
-   "obfs_param": "伪装参数",
-   "obfs_host": "伪装域名"
 }
 ```
 
