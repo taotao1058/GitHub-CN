@@ -37,11 +37,6 @@
 
 然后就可以开启代理了：
 
-```export http_proxy="socks5://127.0.0.1:1080" export https_proxy="socks5://127.0.0.1:1080"```
-
-
-也可以全局模式：
-
 ```export all_proxy="socks5://127.0.0.1:1080"```
 
 
