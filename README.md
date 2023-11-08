@@ -44,3 +44,5 @@
 
 你也可以通过编辑```/etc/shadowsocks-libev/config.json```文件来配置SS服务端，就是把这台服务器当节点用。
 
+为什么用Shadowsocks呢？因为apt yum pip包管理器里都内置了这些，直接安装，不用下载。
+
