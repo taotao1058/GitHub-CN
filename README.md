@@ -1,6 +1,6 @@
 ###  国内VPS使用代理的方法，适用于无法拉取github项目
 
-安装Shadowsocks客户端：
+安装shadowsocks-libev：
 
 ```sudo apt install shadowsocks-libev```    #  Debian/Ubuntu
 
