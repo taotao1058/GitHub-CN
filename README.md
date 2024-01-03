@@ -81,6 +81,9 @@ linux: /etc/hosts
 127.0.0.1 github.global.ssl.fastly.net
 ```
 把```127.0.0.1```替换为查询到的地址
+
+可以从这里获取：https://github.com/521xueweihan/GitHub520/blob/main/hosts
+
 + 刷新系统dns缓存
 
 Linux系统跳过该步骤
