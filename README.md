@@ -104,11 +104,11 @@ hosts 文件在每个系统的位置不一，详情如下：
 ####  激活生效
 大部分情况下是直接生效，如未生效可尝试下面的办法，刷新 DNS：
 
-1. Windows：在 CMD 窗口输入：`ipconfig /flushdns`
+1. Windows：在CMD窗口输入：`ipconfig /flushdns`
 
-2. Linux 命令：`sudo nscd restart`，如报错则须安装：`sudo apt install nscd` 或 `sudo /etc/init.d/nscd restart`
+2. Linux命令：`sudo nscd restart` 如报错则须安装：`sudo apt install nscd` 或 `sudo /etc/init.d/nscd restart`
 
-3. Mac 命令：`sudo killall -HUP mDNSResponder`
+3. Mac命令：`sudo killall -HUP mDNSResponder`
 
 **PS：** 上述方法无效可以尝试重启机器。
 
