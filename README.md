@@ -115,7 +115,7 @@ hosts 文件在每个系统的位置不一，详情如下：
 ###  GitHub加速网站 
 
 https://www.jsdelivr.com/github
-**
+
 https://ghproxy.agrayman.gay/
 
 https://gh.api.99988866.xyz/
