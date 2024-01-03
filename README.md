@@ -75,9 +75,8 @@ linux: /etc/hosts
 ```
 + 格式：
 ```
-192.30.253.112 github.com 
-151.101.184.133 assets-cdn.github.com 
-151.101.185.194 github.global.ssl.fastly.net
+20.205.243.166 github.com
+185.199.108.133 raw.githubusercontent.com
 ```
  
 + 刷新系统dns缓存
