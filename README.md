@@ -95,11 +95,11 @@ hosts 文件在每个系统的位置不一，详情如下：
 - Android（安卓）系统：`/system/etc/hosts`
 - iPhone（iOS）系统：`/etc/hosts`
 
-修改方法，把第一步的内容复制到文本末尾：
+修改方法，把上面的内容复制到文本末尾：
 
-1. Windows 使用记事本。
-2. Linux、Mac 使用 Root 权限：`sudo vi /etc/hosts`。
-3. iPhone、iPad 须越狱、Android 必须要 root。
+1. Windows 使用记事本
+2. Linux、Mac 使用 Root 权限：`sudo nano /etc/hosts`
+3. iPhone、iPad 须越狱、Android 必须要 root
 
 ####  激活生效
 大部分情况下是直接生效，如未生效可尝试下面的办法，刷新 DNS：
