@@ -76,9 +76,9 @@ linux: /etc/hosts
 + 格式：
 ```
 127.0.0.1 github.com
+127.0.0.1 raw.githubusercontent.com
 127.0.0.1 assets-cdn.github.com
 127.0.0.1 github.global.ssl.fastly.net
-127.0.0.1 raw.githubusercontent.com
 ```
 把```127.0.0.1```替换为查询到的地址
 + 刷新系统dns缓存
