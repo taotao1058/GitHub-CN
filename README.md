@@ -82,7 +82,7 @@ linux: /etc/hosts
 ```
 把```127.0.0.1```替换为查询到的地址
 
-可以从这里获取hosts地址：https://github.com/521xueweihan/GitHub520/blob/main/hosts
+可以从这里获取hosts地址：https://github.com/521xueweihan/GitHub520/blob/main/hosts （每日更新）
 
 + 刷新系统dns缓存
 
