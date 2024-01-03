@@ -106,7 +106,7 @@ hosts 文件在每个系统的位置不一，详情如下：
 
 1. Windows：在CMD窗口输入：`ipconfig /flushdns`
 
-2. Linux命令：`sudo nscd restart` 如报错则须安装：`sudo apt install nscd` 或 `sudo /etc/init.d/nscd restart`
+2. Linux命令：`sudo systemctl restart nscd` 如报错则须安装：`sudo apt install nscd` 或 `sudo /etc/init.d/nscd restart`
 
 3. Mac命令：`sudo killall -HUP mDNSResponder`
 
