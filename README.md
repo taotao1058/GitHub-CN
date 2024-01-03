@@ -68,25 +68,25 @@
 
 ###  系统hosts文件实现加速：
 
-文件路径：
++ 文件路径：
 ```
 windows: C:\Windows\System32\drivers\etc 
 linux: /etc/hosts
 ```
-格式：
++ 格式：
 ```
 192.30.253.112 github.com 
 151.101.184.133 assets-cdn.github.com 
 151.101.185.194 github.global.ssl.fastly.net
 ```
  
-刷新系统dns缓存
++ 刷新系统dns缓存
 
 Linux系统跳过该步骤
 
 Windows系统 ```ipconfig /flushdns```
 
-完成
++ 完成
 
 ###  GitHub加速网站 
 
