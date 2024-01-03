@@ -87,7 +87,7 @@ Linux系统跳过该步骤
 
 Windows系统 ```ipconfig /flushdns```
 
-#### 完成
+完成
 
 ###  GitHub加速网站 
 
