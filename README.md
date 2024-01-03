@@ -83,6 +83,7 @@ linux: /etc/hosts
 把```127.0.0.1```替换为查询到的地址
 
 可以从这里获取hosts地址：https://github.com/521xueweihan/GitHub520/blob/main/hosts
+
 该内容会自动定时更新。
 
 #### 修改 hosts 文件
