@@ -75,12 +75,12 @@ linux: /etc/hosts
 ```
 + 格式：
 ```
-127.0.0.1 github.com
-127.0.0.1 raw.githubusercontent.com
-127.0.0.1 assets-cdn.github.com
-127.0.0.1 github.global.ssl.fastly.net
+127.0.0.11 github.com
+127.0.0.11 raw.githubusercontent.com
+127.0.0.11 assets-cdn.github.com
+127.0.0.11 github.global.ssl.fastly.net
 ```
-把```127.0.0.1```替换为查询到的地址
+把```127.0.0.11```替换为查询到的地址
 
 可以从这里获取hosts地址：https://github.com/521xueweihan/GitHub520/blob/main/hosts
 
