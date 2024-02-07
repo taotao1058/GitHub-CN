@@ -60,7 +60,7 @@
 
 配置完成后需重启 ```sudo systemctl restart shadowsocks-libev```
 
-为什么用SS呢？因为包管理器里都内置了这些，直接安装，不用下载。
+为什么使用SS，因为可以使用apt包管理器直接安装。
 
 ---
  
