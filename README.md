@@ -111,7 +111,7 @@ hosts 文件在每个系统的位置不一，详情如下：
 
 **PS：** 上述方法无效可以尝试重启机器。
 
-###  GitHub加速网站 
+###  GitHub加速网站（不会使用请谷歌） 
 
 https://www.jsdelivr.com/github
 
