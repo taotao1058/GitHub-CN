@@ -16,7 +16,11 @@
 ###  方法二：
 安装shadowsocks-libev：
 
-```sudo apt install shadowsocks-libev```  &nbsp;&nbsp;&nbsp;&nbsp;  #  Debian/Ubuntu
+```
+sudo apt update
+```
+
+```sudo apt install shadowsocks-libev -y```  &nbsp;&nbsp;&nbsp;&nbsp;  #  Debian/Ubuntu
 
 
 创建一个名为`config.json`的文件配置SS节点的相关信息，建议使用`aes-256-gcm`或`aes-128-gcm`等加密算法，将以下配置添加到文件中：
