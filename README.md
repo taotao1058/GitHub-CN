@@ -31,7 +31,7 @@ sudo apt install shadowsocks-libev -y
 创建一个名为`config.json`的文件配置SS节点的相关信息，建议使用`aes-256-gcm`或`aes-128-gcm`等加密算法，将以下配置添加到文件中：
 
 ```
-nano /root/config.json
+touch /root/config.json
 ```
 
 ```
