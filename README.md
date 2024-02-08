@@ -14,7 +14,10 @@
 
 
 ###  方法二：
-安装`shadowsocks-libev`适用于`Ubuntu` `Debian` `Kali Linux`系统
+
+适用于`Ubuntu` `Debian` `Kali Linux`系统
+
+安装`shadowsocks-libev`
 
 ```
 sudo apt update
