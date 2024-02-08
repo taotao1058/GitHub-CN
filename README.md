@@ -56,6 +56,34 @@ export all_proxy="socks5://127.0.0.1:1080"
 
 #### 注意：下载文件或脚本时需要使用`sudo -E`传递环境变量才会生效
 
+#### 相关命令
+
+查看运行状态
+
+```
+sudo systemctl status shadowsocks-libev
+```
+
+
+停止
+
+```
+sudo systemctl stop shadowsocks-libev
+```
+
+卸载
+
+```
+sudo apt remove shadowsocks-libev
+```
+
+删除相关配置
+
+```
+sudo apt purge shadowsocks-libev
+```
+
+
 
 #  PS
 
