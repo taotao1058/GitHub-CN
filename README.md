@@ -61,32 +61,32 @@ export all_proxy="socks5://127.0.0.1:1080"
 查看运行状态
 
 ```
-sudo systemctl status shadowsocks-libev
+systemctl status shadowsocks-libev
 ```
 
 重启
 
 ```
-sudo systemctl restart shadowsocks-libev
+systemctl restart shadowsocks-libev
 ```
 
 
 停止
 
 ```
-sudo systemctl stop shadowsocks-libev
+systemctl stop shadowsocks-libev
 ```
 
 卸载
 
 ```
-sudo apt remove shadowsocks-libev
+apt remove shadowsocks-libev
 ```
 
 删除相关配置
 
 ```
-sudo apt purge shadowsocks-libev
+apt purge shadowsocks-libev
 ```
 
 
