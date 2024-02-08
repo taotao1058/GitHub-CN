@@ -16,10 +16,17 @@
 ###  方法二：
 安装shadowsocks-libev：
 
-```sudo apt install shadowsocks-libev```  &nbsp;&nbsp;&nbsp;&nbsp;  #  Debian/Ubuntu
+```
+sudo apt install shadowsocks-libev
+```  &nbsp;&nbsp;&nbsp;&nbsp;  #  Debian/Ubuntu
 
 
-创建一个名为```config.json```的文件配置SS节点的相关信息，建议使用aes-256-gcm或aes-128-gcm等加密算法，将以下配置添加到文件中：
+创建一个名为```config.json```的文件配置SS节点的相关信息，建议使用`aes-256-gcm`或`aes-128-gcm`等加密算法，将以下配置添加到文件中：
+
+```
+nano /root/config.json
+```
+
 ```
 {
   "server": "节点地址",
@@ -33,11 +40,15 @@
 
 使用以下命令启动shadowsocks-libev客户端：
 
-```ss-local -c 节点文件路径 > /dev/null 2>&1 &```
+```
+ss-local -c /root/config.json > /dev/null 2>&1 &
+```
 
 然后就可以开启代理了：
 
-```export all_proxy="socks5://127.0.0.1:1080"```
+```
+export all_proxy="socks5://127.0.0.1:1080"
+```
 
 
 
@@ -56,7 +67,9 @@
 
 就是把这台服务器当节点用，需要把第一行```server```配置改为```"server":"0.0.0.0",``` &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#  允许所有IP连接
 
-配置完成后需重启 ```sudo systemctl restart shadowsocks-libev```
+配置完成后需重启 ```
+sudo systemctl restart shadowsocks-libev
+```
 
 为什么使用SS，因为可以使用apt包管理器直接安装。
 
