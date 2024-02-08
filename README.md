@@ -64,6 +64,12 @@ export all_proxy="socks5://127.0.0.1:1080"
 sudo systemctl status shadowsocks-libev
 ```
 
+重启
+
+```
+sudo systemctl restart shadowsocks-libev
+```
+
 
 停止
 
