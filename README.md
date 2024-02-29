@@ -102,7 +102,7 @@ apt purge shadowsocks-libev
 
 ## [教程地址](https://v2raya.org/docs/prologue/installation/debian/)
 
-#### 通过apt-get安装的话，使用·apt-get remove v2raya·卸载
+#### 通过apt-get安装的话，使用`apt-get remove v2raya`卸载
 
 #### 国内Debian / Ubuntu切换apt源教程
 
