@@ -100,7 +100,7 @@ apt purge shadowsocks-libev
 
 ### 方法三：v2rayA
 
-#### [教程地址](https://v2raya.org/docs/prologue/installation/debian/)
+## [教程地址](https://v2raya.org/docs/prologue/installation/debian/)
 
 #### 国内Debian / Ubuntu切换apt源教程
 
