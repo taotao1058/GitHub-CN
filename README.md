@@ -124,7 +124,7 @@ deb https://mirrors.tuna.tsinghua.edu.cn/debian/ bullseye-updates main contrib n
 deb-src https://mirrors.tuna.tsinghua.edu.cn/debian/ bullseye-updates main contrib non-free
 ```
 
-清华大学`ubuntu`源
+清华大学`ubuntu 20.04`源
 
 ```
 deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal main restricted universe multiverse
