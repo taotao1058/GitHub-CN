@@ -104,7 +104,7 @@ apt purge shadowsocks-libev
 
 #### 通过apt-get安装的话，使用`apt-get remove v2raya`卸载
 
-#### 国内Debian / Ubuntu切换apt源教程
+## 国内Debian / Ubuntu切换apt源教程
 
 需要root权限
 
