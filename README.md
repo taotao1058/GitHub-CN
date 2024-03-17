@@ -12,97 +12,15 @@
 
 #### 注意：下载文件或脚本时需要使用`sudo -E`传递环境变量才会生效
 
+---
 
-###  方法二：
-
-适用于`Ubuntu` `Debian` `Kali Linux`系统
-
-安装`shadowsocks-libev`
-
-```
-sudo apt update
-```
-
-```
-sudo apt install shadowsocks-libev -y
-```
-
-
-创建一个名为`config.json`的文件配置SS节点的相关信息，建议使用`aes-256-gcm`或`aes-128-gcm`等加密算法，将以下配置添加到文件中：
-
-```
-touch /root/config.json
-```
-
-```
-{
-  "server": "节点地址",
-  "server_port": 端口,
-  "local_port": 1080,
-  "password": "密码",
-  "method": "加密算法"
-}
-```
-
-
-使用以下命令启动shadowsocks-libev客户端：
-
-```
-ss-local -c /root/config.json > /dev/null 2>&1 &
-```
-
-然后就可以开启代理了：
-
-```
-export all_proxy="socks5://127.0.0.1:1080"
-```
-
-
-
-此时输入```curl ip.sb```查看本机IP判断是否配置成功
-
-关闭终端重新连接后会自动关闭代理，重新开启SK5代理即可
-
-#### 注意：下载文件或脚本时需要使用`sudo -E`传递环境变量才会生效
-
-#### 相关命令
-
-查看运行状态
-
-```
-systemctl status shadowsocks-libev
-```
-
-重启
-
-```
-systemctl restart shadowsocks-libev
-```
-
-
-停止
-
-```
-systemctl stop shadowsocks-libev
-```
-
-卸载
-
-```
-apt remove shadowsocks-libev
-```
-
-删除相关配置
-
-```
-apt purge shadowsocks-libev
-```
-
-### 方法三：v2rayA
+### 方法二：v2rayA
 
 ## [教程地址](https://v2raya.org/docs/prologue/installation/debian/)
 
 #### 通过apt-get安装的话，使用`apt-get remove v2raya`卸载
+
+---
 
 ## 国内Debian / Ubuntu切换apt源教程
 
@@ -150,26 +68,9 @@ sudo apt update
 切换完成
 
 
-#  PS
-
-文件格式转换命令```mv config.txt config.json```
-
-你也可以通过编辑```/etc/shadowsocks-libev/config.json```文件来配置SS服务端:
-
-就是把这台服务器当节点用，需要把第一行```server```配置改为```"server":"0.0.0.0",``` &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#  允许所有IP连接
-
-配置完成后需重启 
-
-```
-sudo systemctl restart shadowsocks-libev
-```
-
-为什么使用SS，因为可以使用apt包管理器直接安装。
-
 ---
- 
 
-###  修改系统hosts文件实现加速(老方法不稳定)：
+###  方法三：修改系统hosts文件实现加速(老方法不稳定)：
 
 + 文件路径：
 ```
