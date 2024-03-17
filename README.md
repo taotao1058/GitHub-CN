@@ -112,35 +112,19 @@ apt purge shadowsocks-libev
 
 打开文件`/etc/apt/sources.list`
 
-`ucloud`源
+清华大学`debian 11`源
 ```
-deb http://mirrors.ucloud.cn/debian/ bullseye main
-deb-src http://mirrors.ucloud.cn/debian/ bullseye main
-deb http://mirrors.ucloud.cn/debian-security bullseye-security main
-deb-src http://mirrors.ucloud.cn/debian-security bullseye-security main
-deb http://mirrors.ucloud.cn/debian/ bullseye-updates main
-deb-src http://mirrors.ucloud.cn/debian/ bullseye-updates main
-```
+deb https://mirrors.tuna.tsinghua.edu.cn/debian/ bullseye main contrib non-free
+deb-src https://mirrors.tuna.tsinghua.edu.cn/debian/ bullseye main contrib non-free
 
-`阿里云`源
+deb https://mirrors.tuna.tsinghua.edu.cn/debian-security bullseye-security main contrib non-free
+deb-src https://mirrors.tuna.tsinghua.edu.cn/debian-security bullseye-security main contrib non-free
 
-```
-deb http://mirrors.aliyun.com/ubuntu/ focal main restricted universe multiverse
-deb http://mirrors.aliyun.com/ubuntu/ focal-security main restricted universe multiverse
-deb http://mirrors.aliyun.com/ubuntu/ focal-updates main restricted universe multiverse
-deb http://mirrors.aliyun.com/ubuntu/ focal-backports main restricted universe multiverse
-
-# deb-src http://mirrors.aliyun.com/ubuntu/ focal main restricted universe multiverse
-# deb-src http://mirrors.aliyun.com/ubuntu/ focal-security main restricted universe multiverse
-# deb-src http://mirrors.aliyun.com/ubuntu/ focal-updates main restricted universe multiverse
-# deb-src http://mirrors.aliyun.com/ubuntu/ focal-backports main restricted universe multiverse
-
-## Pre-released source, not recommended.
-# deb http://mirrors.aliyun.com/ubuntu/ focal-proposed main restricted universe multiverse
-# deb-src http://mirrors.aliyun.com/ubuntu/ focal-proposed main restricted universe multiverse
+deb https://mirrors.tuna.tsinghua.edu.cn/debian/ bullseye-updates main contrib non-free
+deb-src https://mirrors.tuna.tsinghua.edu.cn/debian/ bullseye-updates main contrib non-free
 ```
 
-`清华大学`源
+清华大学`ubuntu`源
 
 ```
 deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal main restricted universe multiverse
